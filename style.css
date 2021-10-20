@@ -1,10 +1,11 @@
 /* Write some CSS below */
-h1 {color:  skyblue;
+h1, h2, h3 {font-family: Roboto, sans-serif;
+	color:  skyblue;
 	background-color: rgb(30, 30, 30, 0.3);
 }
 
 body {
-	font-family:  Courrier, sans-serif;
+	font-family:  Roboto, sans-serif;
 	font-size: 18px;
 	color: rgb(30, 30, 30);
 	background-color: rgb(230, 230, 230);
