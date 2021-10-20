@@ -1,4 +1,24 @@
 /* Write some CSS below */
-h1 {color:  red;
+h1 {color:  skyblue;
 	background-color: rgb(30, 30, 30, 0.3);
+}
+
+body {
+	font-family:  Courrier, sans-serif;
+	font-size: 18px;
+	color: rgb(30, 30, 30);
+	background-color: rgb(230, 230, 230);
+
+}
+
+a {
+  color: #1A48E3;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+
+
+a:hover {
+  color: #CE2FAE;
 }
