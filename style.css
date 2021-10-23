@@ -27,6 +27,12 @@ a:hover {
 .btn-blue {
 	background-color: #001EC6;
 	color: white;
-	padding: 10px 15 px;
+	padding: 10px 15px;
 	border-radius: 2px;
+}
+
+.card {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
 }
