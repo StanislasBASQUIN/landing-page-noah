@@ -23,3 +23,10 @@ a {
 a:hover {
   color: #CE2FAE;
 }
+
+.btn-blue {
+	background-color: #001EC6;
+	color: white;
+	padding: 10px 15 px;
+	border-radius: 2px;
+}
