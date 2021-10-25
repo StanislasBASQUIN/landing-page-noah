@@ -46,3 +46,17 @@ a:hover {
 		width: 400px;
 	}
 }
+
+
+@media (min-width: 800px) {
+	.container{
+		width: 600px;
+	}
+}
+
+
+@media (min-width: 1000px) {
+	.container{
+		width: 800px;
+	}
+}
