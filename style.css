@@ -31,8 +31,18 @@ a:hover {
 	border-radius: 2px;
 }
 
-.card {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 16px;
+
+@media (max-width: 800px) {
+	.cards {
+		grid-template-columns: 1fr;
+	}
+	.card-white {
+		width: auto;
+	}
+}
+
+@media (min-width: 500px) {
+	.container{
+		width: 400px;
+	}
 }
