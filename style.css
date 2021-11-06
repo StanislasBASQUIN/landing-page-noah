@@ -37,7 +37,8 @@ a:hover {
 		grid-template-columns: 1fr;
 	}
 	.card-white {
-		width: auto;
+		width: 30px;
+		height: 40px;
 	}
 }
 
