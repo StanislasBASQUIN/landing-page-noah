@@ -9,6 +9,7 @@ body {
 	font-size: 18px;
 	color: rgb(30, 30, 30);
 	background-color: rgb(230, 230, 230);
+	border: 1px solid blue;
 
 }
 
@@ -32,13 +33,16 @@ a:hover {
 }
 
 
+
 @media (max-width: 800px) {
 	.cards {
 		grid-template-columns: 1fr;
+		border: 1px solid red;
 	}
 	.card-white {
 		width: 30px;
 		height: 40px;
+	  border: 1px solid blue;
 	}
 }
 
