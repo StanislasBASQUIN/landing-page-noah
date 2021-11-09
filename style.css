@@ -13,6 +13,14 @@ body {
 
 }
 
+.footer {
+	border: 1px solid blue;
+}
+
+.banner {
+  border: 1px solid blue;
+}
+
 a {
   color: #1A48E3;
   font-weight: bold;
@@ -37,12 +45,13 @@ a:hover {
 @media (max-width: 800px) {
 	.cards {
 		grid-template-columns: 1fr;
-		border: 1px solid red;
+		border: 10px solid red;
+
 	}
 	.card-white {
 		width: 30px;
 		height: 40px;
-	  border: 1px solid blue;
+	  border: 150px solid blue;
 	}
 }
 
