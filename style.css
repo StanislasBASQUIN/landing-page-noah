@@ -17,8 +17,13 @@ body {
 	border: 1px solid blue;
 }
 
+.navbar {
+  border: 30px solid blue;
+}
+
+
 .banner {
-  border: 1px solid blue;
+  border: 50px solid orange;
 }
 
 a {
