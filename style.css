@@ -14,8 +14,6 @@ body {
 }
 
 .column {
-	border: 1px solid blue;
-	height: 100px;
 	float: left;
 }
 
@@ -62,3 +60,9 @@ a:hover {
 	padding: 10px 15px;
 	border-radius: 2px;
 }
+
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
