@@ -44,38 +44,3 @@ a:hover {
 	padding: 10px 15px;
 	border-radius: 2px;
 }
-
-
-
-@media (max-width: 800px) {
-	.cards {
-		grid-template-columns: 1fr;
-		border: 10px solid red;
-
-	}
-	.card-white {
-		width: 30px;
-		height: 40px;
-	  border: 150px solid blue;
-	}
-}
-
-@media (min-width: 500px) {
-	.container{
-		width: 400px;
-	}
-}
-
-
-@media (min-width: 800px) {
-	.container{
-		width: 600px;
-	}
-}
-
-
-@media (min-width: 1000px) {
-	.container{
-		width: 800px;
-	}
-}
