@@ -13,6 +13,24 @@ body {
 
 }
 
+.column {
+	border: 1px solid blue;
+	height: 100px;
+	float: left;
+}
+
+.column.middle {
+  width: 50%;
+	border: 1px solid blue;
+
+}
+
+.column.side {
+	border: 1px solid blue;
+	width: 25%;
+}
+
+
 .footer {
 	border: 1px solid blue;
 }
