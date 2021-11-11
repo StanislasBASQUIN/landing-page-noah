@@ -27,6 +27,9 @@ body {
 	width: 25%;
 }
 
+.content {
+  padding: 16px;
+}
 
 .footer {
 	border: 15px solid purple;	
