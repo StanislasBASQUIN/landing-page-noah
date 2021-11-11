@@ -42,10 +42,17 @@ body {
 .navbar {
   overflow: hidden;
   background-color: #333;
-
 	border: 30px solid blue;
 }
 
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
 
 .banner {
   border: 50px solid orange;
