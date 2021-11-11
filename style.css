@@ -29,11 +29,21 @@ body {
 
 
 .footer {
-	border: 15px solid purple;
+	border: 15px solid purple;	
+	position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
 
 .navbar {
-  border: 30px solid blue;
+  overflow: hidden;
+  background-color: #333;
+
+	border: 30px solid blue;
 }
 
 
