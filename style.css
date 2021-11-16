@@ -42,21 +42,17 @@ body {
   text-align: center;
 }
 
-/* Style the navbar */
 #navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #f1f1f1;
+  padding: 90px 10px; /* Large padding which will shrink on scroll (using JS) */
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  position: fixed; /* Sticky/fixed navbar */
+  width: 100%;
+  top: 0; /* At the top */
+  z-index: 99;
 }
 
-/* Navbar links */
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-}
 
 .banner {
   border: 50px solid orange;
